@@ -1,6 +1,6 @@
 ﻿using collageProject.Code;
 using System;
-
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace collageProject
@@ -14,7 +14,6 @@ namespace collageProject
             pageManager = new PageManager(this);
 
             //load home page
-            pageManager.LoadPage(Gui.home.UserControlHome.Instance()); pageManager.LoadPage(Gui.Cases.CasesUserControl.Instance());
 
         }
 
@@ -28,7 +27,7 @@ namespace collageProject
         private void Casesbutton_Click(object sender, EventArgs e)
         {
             pageManager.LoadPage(Gui.Cases.CasesUserControl.Instance());
-
+            
         }
     }
 }

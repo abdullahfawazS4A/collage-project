@@ -17,3 +17,11 @@ D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.
 D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.Properties.Resources.resources
 D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.Gui.home.UserControlHome.resources
 D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.Gui.Cases.CasesUserControl.resources
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\Bogus.dll
+D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.csproj.CopyComplete
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

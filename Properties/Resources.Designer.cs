@@ -73,6 +73,16 @@ namespace collageProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap icons8_add_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_add_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap icons8_apply_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_apply_32px", resourceCulture);
@@ -93,6 +103,16 @@ namespace collageProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap icons8_delete_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_delete_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap icons8_home_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_home_32px", resourceCulture);
@@ -106,6 +126,26 @@ namespace collageProject.Properties {
         public static System.Drawing.Bitmap icons8_home_32px_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_home_32px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_search_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_search_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_Sort_By_Modified_Date_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Sort_By_Modified_Date_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
