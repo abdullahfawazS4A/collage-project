@@ -25,3 +25,5 @@ D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win-x6
 D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\csharp_project\Collage\collageProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.Gui.Cases.AddCases.resources
+D:\csharp_project\Collage\collageProject\obj\Debug\netcoreapp3.1\collageProject.Gui.Cases.editeCases.resources
