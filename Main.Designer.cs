@@ -73,6 +73,7 @@
             this.Acceptbutton.TabIndex = 1;
             this.Acceptbutton.Text = "     المقبولين ";
             this.Acceptbutton.UseVisualStyleBackColor = true;
+            this.Acceptbutton.Click += new System.EventHandler(this.Acceptbutton_Click);
             // 
             // button3
             // 
