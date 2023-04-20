@@ -7,6 +7,15 @@
     <Compile Update="Gui\accapted\AddAccepted.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Gui\accapted\AddapplicantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\accapted\AddToacceptedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\applicants\ApplicantUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Gui\Cases\AddCases.cs">
       <SubType>Form</SubType>
     </Compile>

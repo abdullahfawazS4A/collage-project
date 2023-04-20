@@ -34,5 +34,10 @@ namespace collageProject
         {
             pageManager.LoadPage(Gui.accapted.AcceptedUserControl.Instance());
         }
+
+        private void Applicantbutton_Click(object sender, EventArgs e)
+        {
+            pageManager.LoadPage(Gui.applicants.ApplicantUserControl.Instance());
+        }
     }
 }

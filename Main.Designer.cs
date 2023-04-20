@@ -31,7 +31,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonHome = new System.Windows.Forms.Button();
             this.Acceptbutton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Applicantbutton = new System.Windows.Forms.Button();
             this.Casesbutton = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
@@ -42,7 +42,7 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.buttonHome);
             this.flowLayoutPanel1.Controls.Add(this.Acceptbutton);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.Applicantbutton);
             this.flowLayoutPanel1.Controls.Add(this.Casesbutton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 417);
@@ -75,16 +75,17 @@
             this.Acceptbutton.UseVisualStyleBackColor = true;
             this.Acceptbutton.Click += new System.EventHandler(this.Acceptbutton_Click);
             // 
-            // button3
+            // Applicantbutton
             // 
-            this.button3.Image = global::collageProject.Properties.Resources.icons8_account_32px;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(580, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 71);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "     المقدمين";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Applicantbutton.Image = global::collageProject.Properties.Resources.icons8_account_32px;
+            this.Applicantbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Applicantbutton.Location = new System.Drawing.Point(580, 11);
+            this.Applicantbutton.Name = "Applicantbutton";
+            this.Applicantbutton.Size = new System.Drawing.Size(119, 71);
+            this.Applicantbutton.TabIndex = 2;
+            this.Applicantbutton.Text = "     المقدمين";
+            this.Applicantbutton.UseVisualStyleBackColor = true;
+            this.Applicantbutton.Click += new System.EventHandler(this.Applicantbutton_Click);
             // 
             // Casesbutton
             // 
@@ -94,7 +95,7 @@
             this.Casesbutton.Name = "Casesbutton";
             this.Casesbutton.Size = new System.Drawing.Size(119, 71);
             this.Casesbutton.TabIndex = 3;
-            this.Casesbutton.Text = "    الرئيسية";
+            this.Casesbutton.Text = "الحالات";
             this.Casesbutton.UseVisualStyleBackColor = true;
             this.Casesbutton.Click += new System.EventHandler(this.Casesbutton_Click);
             // 
@@ -132,7 +133,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button Acceptbutton;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Applicantbutton;
         private System.Windows.Forms.Button Casesbutton;
         public System.Windows.Forms.Panel panelContainer;
     }

@@ -26,7 +26,7 @@ namespace collageProject.Gui.Cases
 
 
            string connectionString = "Server=ABD;Database=DBCollageproject;Trusted_Connection=True;";
-
+        
         public CasesUserControl()
         {
             InitializeComponent();
@@ -113,9 +113,15 @@ namespace collageProject.Gui.Cases
             dataGridView1.DataSource = casesTable;
 
             dataGridView1.Columns["ID"].Visible = false;
-
-
+            dataGridView1.Columns["Name"].HeaderText = "اسم الحالة";
+            dataGridView1.Columns["gender"].HeaderText = "الجنس";
+            dataGridView1.Columns["description"].HeaderText = "تفاصيل الحالة";
             connection.Close();
         }
     }
 }
+
+
+
+
+

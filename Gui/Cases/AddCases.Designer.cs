@@ -106,8 +106,8 @@
             this.genderTextbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.genderTextbox.FormattingEnabled = true;
             this.genderTextbox.Items.AddRange(new object[] {
-            "Male",
-            "female"});
+            "ذكر",
+            "انثى"});
             this.genderTextbox.Location = new System.Drawing.Point(90, 93);
             this.genderTextbox.Name = "genderTextbox";
             this.genderTextbox.Size = new System.Drawing.Size(269, 38);

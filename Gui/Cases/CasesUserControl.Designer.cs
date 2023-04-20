@@ -30,7 +30,6 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.AddButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.searchtextBox = new System.Windows.Forms.TextBox();
@@ -47,7 +46,6 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.flowLayoutPanel1.Controls.Add(this.AddButton);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -69,23 +67,11 @@
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
-            // button2
-            // 
-            this.button2.Image = global::collageProject.Properties.Resources.icons8_delete_32px;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(743, 8);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 49);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "حذف";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.searchtextBox);
-            this.panel2.Location = new System.Drawing.Point(309, 8);
+            this.panel2.Location = new System.Drawing.Point(416, 8);
             this.panel2.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(401, 49);
@@ -110,6 +96,7 @@
             this.searchtextBox.Name = "searchtextBox";
             this.searchtextBox.Size = new System.Drawing.Size(295, 37);
             this.searchtextBox.TabIndex = 0;
+            this.searchtextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.searchtextBox.TextChanged += new System.EventHandler(this.searchtextBox_TextChanged);
             // 
             // panel1
@@ -164,7 +151,6 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button AddButton;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox searchtextBox;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel1;
