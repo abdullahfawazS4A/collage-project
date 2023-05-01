@@ -276,14 +276,8 @@ namespace collageProject.Gui.accapted
 
         private void AddAccepted_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                DialogResult result = MessageBox.Show("هل متاكد تريد الخروج ولم يتم الحفظ", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.No)
-                {
-                    e.Cancel = true; // Cancel the form closing
-                }
-            }
+        
+           
         }
 
         

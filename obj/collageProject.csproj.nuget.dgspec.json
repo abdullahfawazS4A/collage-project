@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[4.6.0.2025, )"
             },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
             "ExcelDataReader": {
               "target": "Package",
               "version": "[3.6.0, )"

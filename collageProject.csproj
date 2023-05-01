@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Bytescout.Spreadsheet" Version="4.6.0.2025" />
+    <PackageReference Include="EPPlus" Version="6.2.2" />
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />

@@ -93,8 +93,7 @@ namespace collageProject.Gui.applicants
 
                     // Do something with the DataTable (e.g., bind it to a DataGridView)
                     tableAccepted.DataSource = dataTable;
-                    DataRow row = dataTable.Rows[3];
-                    string strcase = row["case"].ToString();
+                  
                 }
 
 

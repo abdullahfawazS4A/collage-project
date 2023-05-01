@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\csharp_project\Collage\collageProject\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Update="Gui\accapted\AcceptedUserControl.cs">
       <SubType>UserControl</SubType>
@@ -27,6 +30,42 @@
     </Compile>
     <Compile Update="Gui\home\UserControlHome.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\sons\AddSonsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\sons\EditeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\sons\ShowSonsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\sons\SonsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\Statistics\CasesUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\Statistics\FilterUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\Statistics\poepleCaseUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\Statistics\Statistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\User\AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\User\EditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\User\UserUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="loginForm.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Main.cs">
       <SubType>Form</SubType>

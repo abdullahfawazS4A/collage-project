@@ -33,6 +33,9 @@
             this.Acceptbutton = new System.Windows.Forms.Button();
             this.Applicantbutton = new System.Windows.Forms.Button();
             this.Casesbutton = new System.Windows.Forms.Button();
+            this.Statisticsbutton = new System.Windows.Forms.Button();
+            this.Sonsbutton = new System.Windows.Forms.Button();
+            this.Userbutton = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,6 +47,9 @@
             this.flowLayoutPanel1.Controls.Add(this.Acceptbutton);
             this.flowLayoutPanel1.Controls.Add(this.Applicantbutton);
             this.flowLayoutPanel1.Controls.Add(this.Casesbutton);
+            this.flowLayoutPanel1.Controls.Add(this.Statisticsbutton);
+            this.flowLayoutPanel1.Controls.Add(this.Sonsbutton);
+            this.flowLayoutPanel1.Controls.Add(this.Userbutton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 417);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -99,6 +105,44 @@
             this.Casesbutton.UseVisualStyleBackColor = true;
             this.Casesbutton.Click += new System.EventHandler(this.Casesbutton_Click);
             // 
+            // Statisticsbutton
+            // 
+            this.Statisticsbutton.Image = global::collageProject.Properties.Resources.icons8_pie_chart_report_32px;
+            this.Statisticsbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Statisticsbutton.Location = new System.Drawing.Point(330, 11);
+            this.Statisticsbutton.Name = "Statisticsbutton";
+            this.Statisticsbutton.Size = new System.Drawing.Size(119, 71);
+            this.Statisticsbutton.TabIndex = 4;
+            this.Statisticsbutton.Text = "الاحصائيات";
+            this.Statisticsbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Statisticsbutton.UseVisualStyleBackColor = true;
+            this.Statisticsbutton.Click += new System.EventHandler(this.Statisticsbutton_Click);
+            // 
+            // Sonsbutton
+            // 
+            this.Sonsbutton.Image = global::collageProject.Properties.Resources.icons8_children_32px;
+            this.Sonsbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Sonsbutton.Location = new System.Drawing.Point(205, 11);
+            this.Sonsbutton.Name = "Sonsbutton";
+            this.Sonsbutton.Size = new System.Drawing.Size(119, 71);
+            this.Sonsbutton.TabIndex = 6;
+            this.Sonsbutton.Text = "    صلة قرابة";
+            this.Sonsbutton.UseVisualStyleBackColor = true;
+            this.Sonsbutton.Click += new System.EventHandler(this.Sonsbutton_Click);
+            // 
+            // Userbutton
+            // 
+            this.Userbutton.Image = global::collageProject.Properties.Resources.icons8_User_Account_32px;
+            this.Userbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Userbutton.Location = new System.Drawing.Point(66, 11);
+            this.Userbutton.Name = "Userbutton";
+            this.Userbutton.Size = new System.Drawing.Size(133, 71);
+            this.Userbutton.TabIndex = 5;
+            this.Userbutton.Text = "المستخدمين";
+            this.Userbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Userbutton.UseVisualStyleBackColor = true;
+            this.Userbutton.Click += new System.EventHandler(this.Userbutton_Click);
+            // 
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.White;
@@ -123,6 +167,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -136,5 +181,8 @@
         private System.Windows.Forms.Button Applicantbutton;
         private System.Windows.Forms.Button Casesbutton;
         public System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.Button Statisticsbutton;
+        private System.Windows.Forms.Button Userbutton;
+        private System.Windows.Forms.Button Sonsbutton;
     }
 }
